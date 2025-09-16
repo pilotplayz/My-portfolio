@@ -27,7 +27,7 @@ h2 {
 }
 
 nav a {
-    background-color: #08bece; /* Light blue background */
+    background-color: #eb158e; /* Light blue background */
     padding: 10px; /* Add padding for better clickability */
     text-align: center;
 }
@@ -35,6 +35,6 @@ nav a {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #e118d7;
+    background-color: #18dae1;
     width: 100%;
 }
