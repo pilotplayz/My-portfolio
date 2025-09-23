@@ -1,0 +1,27 @@
+body {
+ 
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Fallback to sans-serif if Times New Roman is unavailable */
+    margin: 0;
+    padding: 0;
+    background-color: #32d48b; /* Light green background */
+}
+
+header {
+    text-align: center; /* Center align header text */
+    color: #17ebd2;
+    margin-top: 20px; /* Add some top margin */
+    margin-bottom: 20px; /* Add some bottom margin, makes it so the text is seperated from other text/borders */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #18dae1;
+    width: 100%;
+}
+
+nav a {
+    background-color: #eb158e; /* Light blue background */
+    padding: 10px; /* Add padding for better clickability */
+    text-align: center;
+}
