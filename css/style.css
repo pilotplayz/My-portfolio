@@ -1,15 +1,35 @@
+/* style.css */
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+ 
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Fallback to sans-serif if Times New Roman is unavailable */
     margin: 0;
     padding: 0;
     background-color: #32d48b; /* Light green background */
 }
 
 header {
-    text-align: center;
+    text-align: center; /* Center align header text */
     color: #17ebd2;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px; /* Add some top margin */
+    margin-bottom: 20px; /* Add some bottom margin, makes it so the text is seperated from other text/borders */
+}
+
+section {
+    background-color: #7e14db; /* Purple background */
+    padding: 20px; /* Add padding for better readability */
+    margin: 20px; /* Add margin to separate from other sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    background-color: #11c8d9;
+    font-family: 'Courier New', Courier, monospace; /* Fallback to monospace if Courier New is unavailable */
+}
+
+nav a {
+    background-color: #eb158e; /* Light blue background */
+    padding: 10px; /* Add padding for better clickability */
+    text-align: center;
 }
 
 footer {
@@ -18,78 +38,3 @@ footer {
     background-color: #18dae1;
     width: 100%;
 }
-
-nav a {
-    background-color: #eb158e;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 6px;
-    display: inline-block;
-}
-
-header h1 {
-    background: linear-gradient(90deg, #ff6a00, #ee0979); /* orange → pink */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-}
-h2 {
-    color: #000000;
-    text-align: center;
-}
-p {
-    text-align: center;
-}
-/* 1. Gradient Background */
-section.gradient {
-    background: linear-gradient(135deg, #f14309, #d6d90f);
-    padding: 40px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 20px;
-}
-
-
-/* 2. Grid Layout */
-section.grid .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin: 20px auto;
-    max-width: 600px;
-}
-
-section.grid .grid-item {
-    background: #1779db;
-    border: 2px solid #17ebd2;
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 8px;
-}
-
-/* 3. Button Hover Animation */
-section.buttons {
-    text-align: center;
-    padding: 30px;
-}
-
-section.buttons .btn {
-    background-color: #eb158e;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    font-size: 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-section.buttons .btn:hover {
-    background-color: #c10d72;
-    transform: scale(1.1);
-}
-
-
