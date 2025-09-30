@@ -35,6 +35,13 @@ header h1 {
     background-clip: text;
     color: transparent;
 }
+h2 {
+    color: #000000;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
 /* 1. Gradient Background */
 section.gradient {
     background: linear-gradient(135deg, #f14309, #d6d90f);
