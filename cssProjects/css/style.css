@@ -5,14 +5,36 @@ body {
     background-color: #32d48b; /* Light green background */
 }
 
-/* First section only */
-section:first-of-type {
-    background-color: #29dde3;
-    padding: 20px;
-    border-radius: 16px;
-    border-color: #000000;
+/* Project List Styling */
+.project-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.project-list li {
+    margin: 10px 0;
 }
 
+.project-list .list-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.project-list .list-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
 
 header {
     text-align: center;
