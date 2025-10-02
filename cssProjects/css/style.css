@@ -5,6 +5,15 @@ body {
     background-color: #32d48b; /* Light green background */
 }
 
+/* First section only */
+section:first-of-type {
+    background-color: #29dde3;
+    padding: 20px;
+    border-radius: 16px;
+    border-color: #000000;
+}
+
+
 header {
     text-align: center;
     color: #17ebd2;
