@@ -30,6 +30,7 @@ nav a {
     background-color: #eb158e; /* Light blue background */
     padding: 10px; /* Add padding for better clickability */
     text-align: center;
+    color: white; /* White text color */
 }
 
 footer {
