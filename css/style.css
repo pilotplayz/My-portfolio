@@ -38,3 +38,12 @@ footer {
     background-color: #18dae1;
     width: 100%;
 }
+
+
+header h1 {
+    background: linear-gradient(90deg, #ff6a00, #ee0979); /* orange → pink */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
