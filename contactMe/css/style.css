@@ -95,7 +95,7 @@ nav a:hover {
 .contact-form input[type="radio"] {
   width: auto;
   display: inline-block;
-  margin: 0;              /* remove odd extra space */
+  margin: 0;              
 }
 
 /* Inline option rows (checkboxes/radios) */
@@ -146,7 +146,7 @@ nav a:hover {
 .contact-form button:hover {
   background-color: #0056b3;
 }
-/* Optional: “Other” checkbox row */
+
 .form-check {
   display: inline-flex;
   align-items: center;
@@ -160,7 +160,7 @@ footer {
     width: 100%;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 480px) {
   nav {
     justify-content: center;
