@@ -1,6 +1,6 @@
 /* style.css */
 body {
- 
+    text-align: center;
     font-family: 'Times New Roman', Times, serif, sans-serif; /* Fallback to sans-serif if Times New Roman is unavailable */
     margin: 0;
     padding: 0;
